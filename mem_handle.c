@@ -9,13 +9,13 @@
 
 int arraycleaner(char **str)
 {
-int i;
+	int i;
 
-for(i = 0; str[i]; i++)
-{
-free(str[i]);
-}
-free(str);
+	for(i = 0; str[i]; i++)
+	{
+		free(str[i]);
+	}
+	free(str);
 
-return(1);
+	return(1);
 }
