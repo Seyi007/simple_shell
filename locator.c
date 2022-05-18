@@ -1,6 +1,6 @@
 #include "shell.h"
 /**
- * get_enviroment - gets the env variable needed
+ * getenviroment - gets the env variable needed
  * @name: name of the env variable
  * @environ: env variables
  *
@@ -25,7 +25,7 @@ char *getenviroment(char *name, char **environ)
 }
 
 /**
- * get_path - Gets the PATH variable
+ * getpath - Gets the PATH variable
  * @environ: enviroment variable
  * @input: command pass by user
  *
