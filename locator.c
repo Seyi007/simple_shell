@@ -7,7 +7,7 @@
  * Return: the line with the env variable
 */
 
-char *get_enviroment(char *name, char **environ)
+char *getenviroment(char *name, char **environ)
 {
 	int i, j, k;
 
@@ -32,7 +32,7 @@ char *get_enviroment(char *name, char **environ)
  * Return: the splitted PATH variable
 */
 
-char *get_path(char **environ, char *input)
+char *getpath(char **environ, char *input)
 {
 	char **path = NULL, *command;
 	unsigned int input_len, path_len, i, j, k;
